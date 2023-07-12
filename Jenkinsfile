@@ -28,12 +28,12 @@ pipeline {
     }
     stage ('Package') {
       steps {
-        echo 'I am in Static Code'
+        echo 'I am in Package'
       }
     }
     stage ('Publish') {
       steps {
-        echo 'I am in Static Code'
+        echo 'I am in Publish'
       }
     }
   }
